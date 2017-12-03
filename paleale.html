@@ -5,14 +5,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
-
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
-<script type="text/javascript">
-    Bokeh.set_log_level("info");
-</script>
-
 <html>
 	<head>
 		<title>Cassopiea Pale Ale</title>
@@ -30,7 +22,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="#">CHBeer</a></h1>
+						<h1><a href="index.html">CHBeer</a></h1>
 						<nav class="links">
 							<ul>
 								<li><a href="#">Team</a></li>
@@ -40,69 +32,10 @@
 								<li><a href="#">Sponsorship</a></li>
 							</ul>
 						</nav>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Search</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
-								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>
-								</li>
-							</ul>
-						</nav>
 					</header>
 
 				<!-- Menu -->
-					<section id="menu">
-
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
-
-						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<a href="#">
-											<h3>Lorem ipsum</h3>
-											<p>Feugiat tempus veroeros dolor</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Dolor sit amet</h3>
-											<p>Sed vitae justo condimentum</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Feugiat veroeros</h3>
-											<p>Phasellus sed ultricies mi congue</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Etiam sed consequat</h3>
-											<p>Porta lectus amet ultricies</p>
-										</a>
-									</li>
-								</ul>
-							</section>
-
-						<!-- Actions -->
-							<section>
-								<ul class="actions vertical">
-									<li><a href="#" class="button big fit">Log In</a></li>
-								</ul>
-							</section>
-
-					</section>
+				
 
 				<!-- Main -->
 					<div id="main">
@@ -119,14 +52,21 @@
 										<a href="#" class="author"><span class="name">Josh Donaldson</span><img src="images/josh.jpg" alt="" /></a>
 									</div>
 								</header>
-								<div w3-include-html="assets/data/data.html"></div>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
-								<footer>
-									<ul class="stats">
-										<li><a href="#">Brewing</a></li>
-									</ul>
-								</footer>
+								
+								<p> The first batch of beer made by ChBeer is a centennial brewing style (both grain and malt extract used) of pale ale. The process began with a collection of data, followed by writing a standard operating procedure for this specific style of beer, and finally performing the brew. The performance of the brew consists of buying the ingredients and the brewing items, preparing the wort, fermenting, and bottling. This process takes more than a month for the beer to be completely prepared.</p>
+
+								<iframe src="/assets/data/data.html" title="iframe example 1" width="1000" height="600">
+  									<p>Your browser does not support iframes.</p>
+								</iframe>
+
+								<p> A typical pale ale has around 5% abv, an SRM (colour) from 5 to 14 and an OG (original gravity) ranging for 1.045 to 1.060. The results for the final beer product made are 3.6% abv, an SRM of 11 to 14, and an OG of 1.038. Additionally, the beer has a moderately hoppy taste and has a small amount of sediment.
+
+								The procedure to make the beer product consists of mainly two days of work, or two parts to the process. First is preparing the wort for fermentation. This is the main process of brewing. It is where small errors or variations will heavily influence the final product. To begin, water is boiled and the grains (0.5 lb of Carastan 35 Malt) are heated up to a temperature of  for an hour, this is where the enzymes become active and is an important part to the process. Next is sparging, this means the wort (boiled grain water) is separated from the actual grain. However, one must continue pouring sparge water (hot water) through the grain to collect all the wanted proteins. Sparging is a big step in the brewing process because if this is not properly performed, the OG will not achieve the desired level. This explain as to why the OG level is lower than the expected value in the Cassopeia brew. It is very likely that this step had not been properly performed during the process, either by not sparging long enough, or by not heating the water high enough. Following this is the boiling of the wort with 6 lb of malt extract and when fully dissolved, the addition of the hops. The hops are added at different times and at different quantities during the final 60 min boil. In this case, 1 oz. of Northern Brewers is added for 60 min of boil, and later 1 oz. of Cascade is added at the remaining 10 min of boil. The Northern Brewers gives a more bitter taste to the beer, whereas the Cascade gives an aroma to the final product. Once the boil is over the separation of hops is performed, and the wort is transferred into the fermenter where cool water is added until 20 L of wort is obtained. Yeast is added to the fermenter, is then capped with a lid and an air lock, and will sit for about two weeks for the fermentation process to occur.
+
+								After the fermentation process is finished, part two of the process is performed. This consists of boiling a solution of ¾ cup of sugar with 2 cups of water, followed by pouring it into the bottling bucket. The wort is the siphoned out of the fermenter into the bottling bucket in a whirlpool form. This ensures the proper mixture of the sugar solution with the wort. Bottling is then performed by simply transferring the liquid, either out of a siphon or a tap at the bottom of the bucket, into glass beer bottles. The bottles are stored and will sit for another two weeks. This ensures that the carbonation of the beer will be complete.
+
+								The beer produced in this batch diverged slightly from what was expected. ChBeer’s creation of a typical centennial style pale ale differed from the typical pale ale because the OG and the abv is lower than what is considered a pale ale. This occurred because sparging was not properly performed, and because 20 L was topped out instead of 18.9 L. The hops, sedimentation, and SRM are in the range wanted. Because of this, the beer has a good mix of hops, and still has a moderate malt flavour, but differs from the typical pale ale because of its alcohol percentage and its less concentrated taste.
+								</p>
 							</article>
 
 					</div>
@@ -134,9 +74,8 @@
 				<!-- Footer -->
 					<section id="footer">
 						<ul class="icons">
-							<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.facebook.com/ubcenvision/" class="fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/ubcenvision/" class="fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="mailto:brewing@ubcenvision.com" class="fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</section>
